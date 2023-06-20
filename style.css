@@ -4,20 +4,35 @@
 
 body {
   background-color: #000;
-  background-image: url(img/grid1.svg);
+  background-image: url(img/grid2.svg);
   color: aliceblue;
 }
-
+h1 {
+  font-weight: bold;
+}
 li {
-  list-style-type: ;
-  font-size: 20px;
-  line-height: 40px;
+  list-style-type: decimal;
+  font-size: 1.14em;
+  line-height: 2.5em;
+  padding: 10px;
 }
 .container {
-  display: flex;
+  color: #cccccc;
   margin: 0 auto;
+  width: 60vw;
+  margin-bottom: 15px;
+
+  padding: 20px;
+  box-shadow: 0 3rem 5rem rgba(139, 139, 139, 0.25);
+  border-radius: 9px;
+  background-color: rgba(255, 255, 255, 0.079);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 50vw;
+}
+.list {
+  padding: 20px;
 }
