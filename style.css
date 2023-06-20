@@ -1,3 +1,7 @@
+* {
+  font-family: "Overpass", sans-serif;
+}
+
 body {
   background-color: #000;
   background-image: url(img/grid1.svg);
@@ -5,7 +9,9 @@ body {
 }
 
 li {
-  list-style-type: circle;
+  list-style-type: ;
+  font-size: 20px;
+  line-height: 40px;
 }
 .container {
   display: flex;
@@ -13,4 +19,5 @@ li {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 50vw;
 }
