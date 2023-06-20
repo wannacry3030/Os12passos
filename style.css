@@ -1,3 +1,16 @@
 body {
-  background-color: ;
+  background-color: #000;
+  background-image: url(img/grid1.svg);
+  color: aliceblue;
+}
+
+li {
+  list-style-type: circle;
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
