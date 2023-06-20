@@ -7,21 +7,23 @@ body {
   background-image: url(img/grid2.svg);
   color: aliceblue;
 }
+
 h1 {
   font-weight: bold;
 }
+
 li {
   list-style-type: decimal;
   font-size: 1.14em;
   line-height: 2.5em;
   padding: 10px;
 }
+
 .container {
   color: #cccccc;
   margin: 0 auto;
   width: 60vw;
   margin-bottom: 15px;
-
   padding: 20px;
   box-shadow: 14px 23px 18px 3px rgba(100, 100, 100, 0.25);
   border-radius: 9px;
@@ -33,6 +35,7 @@ li {
   justify-content: center;
   flex-direction: column;
 }
+
 .list {
   padding: 20px;
 }
@@ -43,12 +46,25 @@ footer {
   font-weight: bold;
   font-family: "Overpass", sans-serif;
 }
+
+.footer-content {
+  display: flex;
+  align-items: center;
+}
+
+.footer-content img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
 /* MOBILE OPT */
 @media (max-width: 900px) {
   img {
     max-width: 100%;
     height: auto;
   }
+
   .container {
     color: #f6f6f6;
     margin: 0 auto;
@@ -67,6 +83,7 @@ footer {
     flex-direction: column;
     font-size: 12px;
   }
+
   p {
     font-size: 15px;
   }
